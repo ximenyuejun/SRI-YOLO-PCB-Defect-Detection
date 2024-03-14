@@ -1,6 +1,0 @@
-train : D:\work\work\AI\7.10\yibiao2\images\train
-val: D:\work\work\AI\7.10\yibiao2\images\val
-
-nc: 11
-
-names : [".","0","1","2","3","4","5","6","7","8","9"]
