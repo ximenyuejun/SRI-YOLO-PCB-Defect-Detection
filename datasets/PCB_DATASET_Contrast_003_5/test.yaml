@@ -1,0 +1,17 @@
+# Ultralytics YOLO 🚀, AGPL-3.0 license
+# PCB dataset https://robotics.pkusz.edu.cn/resources/dataset/ by Microsoft
+# Example usage: yolo train data=PCB.yaml
+# dataset
+
+path: ../datasets/PCB_DATASET_Contrast_003_5
+train: images
+val: images
+
+
+names:
+  0: Missing_hole
+  1: Mouse_bite
+  2: Open_circuit
+  3: Short
+  4: Spur
+  5: Spurious_copper
