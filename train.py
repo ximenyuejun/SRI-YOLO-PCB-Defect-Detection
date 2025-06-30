@@ -1,8 +1,8 @@
 from ultralytics import YOLO
 
-# 加载模型
+# Load model
 modelchanged=YOLO("data/yolov8n.yaml")
-#modelchanged= YOLO("runs/detect/train17/weights/best.pt")  # 从头开始构建新模型
+#modelchanged= YOLO("runs/detect/train17/weights/best.pt")  # Train a new model from scratch
 
 # Train the model
 modelchanged.train(data='datasets/PCB_DATASET_Shear_Rotate/PCB.yaml', epochs=300, imgsz=640)
