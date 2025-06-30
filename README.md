@@ -4,6 +4,17 @@ The YOLO image detection model has proven to be effective in detecting common de
 
 Learn more about environment configuration of our project, please refer to requirements.txt.
 
+### Install
+```
+conda create --name VR-YOLO python=3.9
+conda activate VR-YOLO
+pip install -r requirements.txt
+```
+You can also choose to install from the YOLO project homepage [YOLO](https://github.com/ultralytics/ultralytics), but since the project is constantly evolving, you will need to replace some of the dependencies yourself:
+```
+pip install ultralytics
+```
+
 ### Training
 Run the following script to perfom training
 ```
