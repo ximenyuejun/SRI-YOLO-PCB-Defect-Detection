@@ -1,7 +1,7 @@
 from ultralytics import YOLO
 
 # Load model
-modelchanged=YOLO("data/yolov8n.yaml")
+modelchanged=YOLO("data/yolov8.yaml")
 #modelchanged= YOLO("runs/detect/train17/weights/best.pt")  # Train a new model from scratch
 
 # Train the model
