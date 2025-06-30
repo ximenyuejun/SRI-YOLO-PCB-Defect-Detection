@@ -5,7 +5,17 @@ The YOLO image detection model has proven to be effective in detecting common de
 Learn more about environment configuration of our project, please refer to requirements.txt.
 
 ### Training
-run the following script to perfom training
+Run the following script to perfom training
 ```
+cd ultralytics
 python train.py
 ```
+You can also find the pre-trained models here: model/SRSGS+CBAM+SIOU.pt.
+
+### Inference
+Run the following script to perfom inference
+```
+cd ultralytics
+python test.py
+```
+You can optionally replace the model with one you trained yourself.
